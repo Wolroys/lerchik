@@ -13,25 +13,14 @@ export default function Page() {
 
   const getNoButtonText = () => {
     const phrases = [
-      "No",
-      "Are you sure?",
-      "Really sure?",
-      "Think again!",
-      "Last chance!",
-      "Surely not?",
-      "You might regret this!",
-      "Give it another thought!",
-      "Are you absolutely certain?",
-      "This could be a mistake!",
-      "Have a heart!",
-      "Don't be so cold!",
-      "Change of heart?",
-      "Wouldn't you reconsider?",
-      "Is that your final answer?",
-      "You're breaking my heart ;(",
-      "Is that your final answer?",
-      "You're breaking my heart ;(",
-      "Plsss? :( You're breaking my heart",
+      "Нет",
+      "Ты чё мыша",
+      "ЭЭЭ",
+      "Ну умоляю",
+      "Я тебя куплю профитроли и клубнику в шоколаде!!!!!!!!!!",
+      "НУ ШУБУ И АЙФОН",
+      "НУ РАДИ КОТИКА НАШЕГО",
+      "ПОДУМАЙ О ТОМЧИКЕ ОН БУДЕТ ГРУСТИТЬ"
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -43,7 +32,7 @@ export default function Page() {
         <>
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
           <div className="text-4xl md:text-6xl font-bold my-4">
-            Ok Yayyyyy!!!
+            И Я ТЕБЯ ЛЮБЛЮЮЮЮЮЮЮЮЮЮЮЮЮЮЮЮЮЮЮЮЮЮЮЮЮЮЮЮЮЮЮЮ
           </div>
         </>
       ) : (
@@ -58,10 +47,10 @@ export default function Page() {
           />
           <img
             className="h-[230px] rounded-lg shadow-lg"
-            src="https://gifdb.com/images/high/cute-Love-bear-roses-ou7zho5oosxnpo6k.gif"
+            src="https://tenor.com/ru/view/cutecat-cute-catsandwich-sandwich-cat-gif-17513465690606335133.gif"
           />
           <h1 className="text-4xl md:text-6xl my-4 text-center">
-            Will you be my Valentine?
+            Ты будешь меня любить всегда?????
           </h1>
           <div className="flex flex-wrap justify-center gap-2 items-center">
             <button
@@ -75,7 +64,7 @@ export default function Page() {
               onClick={handleNoClick}
               className=" bg-rose-500 hover:bg-rose-600 rounded-lg text-white font-bold py-2 px-4"
             >
-              {noCount === 0 ? "No" : getNoButtonText()}
+              {noCount === 0 ? "Нет" : getNoButtonText()}
             </button>
           </div>
         </>
