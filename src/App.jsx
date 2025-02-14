@@ -50,7 +50,7 @@ export default function Page() {
             src="https://tenor.com/ru/view/cutecat-cute-catsandwich-sandwich-cat-gif-17513465690606335133.gif"
           />
           <h1 className="text-4xl md:text-6xl my-4 text-center">
-            Ты будешь меня любить всегда?????
+            Ты будешь меня любить всегда, Минусик?????
           </h1>
           <div className="flex flex-wrap justify-center gap-2 items-center">
             <button
